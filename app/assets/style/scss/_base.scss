@@ -1,0 +1,34 @@
+.storeLogo{
+    background-image: url('../../assets/images/perfume.png');
+    width: 128px;
+    height: 38px;
+}
+
+.subStoreLogo{
+    background-image: url('../../assets/images/perfumew.png');
+    width: 128px;
+    height: 38px;
+}
+.navbar-nav .nav-item .nav-link{
+    color: $secondary;
+    display: flex;
+    align-items: center;
+    @include media-breakpoint-down(sm) {
+        color: $white;
+        background-color: $secondary;
+        text-align: center;
+        margin-left: -32px;
+        margin-right: -32px;
+        display:block;
+        border-bottom: 1px solid $white;
+    }
+}
+.bgCover{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.posstionRel{
+    position: relative;
+}
