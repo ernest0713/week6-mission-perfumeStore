@@ -8707,6 +8707,9 @@ a.text-dark:hover, a.text-dark:focus {
       -ms-transform: translateY(-10px);
           transform: translateY(-10px); }
 
+body {
+  overflow-x: hidden; }
+
 .storeLogo {
   background-image: url("../../assets/images/perfume.png");
   width: 128px;
@@ -8730,8 +8733,6 @@ a.text-dark:hover, a.text-dark:focus {
       color: #fff;
       background-color: #8D8D8D;
       text-align: center;
-      margin-left: -32px;
-      margin-right: -32px;
       display: block;
       border-bottom: 1px solid #fff; } }
 
@@ -8744,18 +8745,18 @@ a.text-dark:hover, a.text-dark:focus {
   position: relative; }
 
 .banner {
-  height: 870px;
+  height: 75vh;
   background-image: url("../../assets/images/index1.jpg"); }
   @media (max-width: 767.98px) {
     .banner {
-      height: 480px; } }
+      height: 60vh; } }
 
 .subBanner {
-  height: 600px;
+  height: 75vh;
   background-image: url("../../assets/images/index10.jpg"); }
   @media (max-width: 767.98px) {
     .subBanner {
-      height: 480px; } }
+      height: 65vh; } }
 
 .cartCount {
   position: absolute;
