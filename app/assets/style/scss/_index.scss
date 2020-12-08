@@ -1,16 +1,16 @@
 .banner{
-    height: 870px;
+    height: 75vh;
     background-image: url('../../assets/images/index1.jpg');
     @include media-breakpoint-down(sm) {
-        height: 480px;
+        height: 60vh;
     }
 }
 
 .subBanner{
-    height: 600px;
+    height: 75vh;
     background-image: url('../../assets/images/index10.jpg');
     @include media-breakpoint-down(sm) {
-        height: 480px;
+        height: 65vh;
     }
 }
 .cartCount{

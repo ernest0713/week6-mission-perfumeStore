@@ -1,3 +1,6 @@
+body{
+    overflow-x: hidden;
+}
 .storeLogo{
     background-image: url('../../assets/images/perfume.png');
     width: 128px;
@@ -9,6 +12,7 @@
     width: 128px;
     height: 38px;
 }
+
 .navbar-nav .nav-item .nav-link{
     color: $secondary;
     display: flex;
@@ -17,8 +21,8 @@
         color: $white;
         background-color: $secondary;
         text-align: center;
-        margin-left: -32px;
-        margin-right: -32px;
+        // margin-left: -32px;
+        // margin-right: -32px;
         display:block;
         border-bottom: 1px solid $white;
     }
